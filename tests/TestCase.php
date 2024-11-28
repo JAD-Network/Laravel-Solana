@@ -3,8 +3,8 @@
 namespace JadNetwork\LaravelSolana\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use JadNetwork\LaravelSolana\LaravelSolanaServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

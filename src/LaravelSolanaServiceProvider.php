@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace JadNetwork\LaravelSolana;
 
+use JadNetwork\LaravelSolana\Commands\LaravelSolanaCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JadNetwork\LaravelSolana\Commands\LaravelSolanaCommand;
 
 class LaravelSolanaServiceProvider extends PackageServiceProvider
 {
