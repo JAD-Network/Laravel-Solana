@@ -2,7 +2,8 @@ name: "Update Changelog"
 
 on:
   release:
-    types: [released]
+    types: [ released ]
+  workflow_dispatch:
 
 permissions:
   contents: write
