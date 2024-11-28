@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace JadNetwork\LaravelSolana\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSolanaCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-solana';
 
     public $description = 'My command';
 
