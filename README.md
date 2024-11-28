@@ -5,15 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jad-network/laravel-solana/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jad-network/laravel-solana/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jad-network/laravel-solana.svg?style=flat-square)](https://packagist.org/packages/jad-network/laravel-solana)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-solana.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-solana)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+Interact with solana wallets and blockchain with the JAD Network Laravel Package for PHP.
 
 ## Installation
 
