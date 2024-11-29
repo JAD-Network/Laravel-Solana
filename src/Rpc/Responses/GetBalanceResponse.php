@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace JadNetwork\LaravelSolana\Rpc\Responses;
 
-use JadNetwork\LaravelSolana\Rpc\Requests\DTOs\GetBalanceDTO;
+use JadNetwork\LaravelSolana\Rpc\Responses\DTOs\GetBalanceDTO;
 
 class GetBalanceResponse extends RpcBaseResponse
 {

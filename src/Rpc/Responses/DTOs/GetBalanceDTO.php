@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JadNetwork\LaravelSolana\Rpc\Requests\DTOs;
+namespace JadNetwork\LaravelSolana\Rpc\Responses\DTOs;
 
 use Illuminate\Support\Carbon;
 
