@@ -1,11 +1,14 @@
-# Solana Web3.js ported to PHP with Laravel
+# SolanaRPC Laravel Package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jad-network/laravel-solana.svg?style=flat-square)](https://packagist.org/packages/jad-network/laravel-solana)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jad-network/laravel-solana/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jad-network/laravel-solana/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jad-network/laravel-solana/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jad-network/laravel-solana/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jad-network/laravel-solana.svg?style=flat-square)](https://packagist.org/packages/jad-network/laravel-solana)
 
-Interact with solana wallets and blockchain with the JAD Network Laravel Package for PHP.
+> [!CAUTION]
+> This package is a WIP and still needs work before it's ready for use.
+
+Interact with the Solana blockchain using the SolanaRPC in your Laravel App.
 
 ## Installation
 
@@ -35,17 +38,10 @@ return [
 ];
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-solana-views"
-```
-
 ## Usage
 
 ```php
-$laravelSolana = new JadNetwork\LaravelSolana();
-echo $laravelSolana->echoPhrase('Hello, JadNetwork!');
+//Soon
 ```
 
 ## Testing
