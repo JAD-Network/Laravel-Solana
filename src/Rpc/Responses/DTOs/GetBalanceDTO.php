@@ -8,15 +8,15 @@ use Illuminate\Support\Carbon;
 
 class GetBalanceDTO
 {
-    public private(set) Carbon $timestamp;
+    public Carbon $timestamp;
 
     /**
      * @deprecated Please do not use this constructor directly. Use the array for initialization instead.
      */
     public function __construct(
-        public private(set) int $slot,
-        public private(set) ?string $apiVersion,
-        public private(set) readonly string $balance,
+        public int $slot,
+        public ?string $apiVersion,
+        public readonly string $balance,
     ) {
         $this->timestamp = Carbon::now();
     }

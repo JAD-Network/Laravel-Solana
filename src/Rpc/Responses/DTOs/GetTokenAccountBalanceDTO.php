@@ -8,17 +8,17 @@ use Illuminate\Support\Carbon;
 
 class GetTokenAccountBalanceDTO
 {
-    public private(set) Carbon $timestamp;
+    public Carbon $timestamp;
 
     /**
      * @deprecated Please do not use this constructor directly. Use the array for initialization instead.
      */
     public function __construct(
-        public private(set) int $slot,
-        public private(set) ?string $apiVersion,
-        public private(set) string $amount,
-        public private(set) float $uiAmount,
-        public private(set) string $uiAmountString,
+        public int $slot,
+        public ?string $apiVersion,
+        public string $amount,
+        public float $uiAmount,
+        public string $uiAmountString,
     ) {
         $this->timestamp = Carbon::now();
     }
