@@ -15,7 +15,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'JadNetwork\\LaravelSolana\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            static fn(string $modelName) => 'JadNetwork\\LaravelSolana\\Database\\Factories\\' . class_basename($modelName) . 'Factory',
         );
     }
 
