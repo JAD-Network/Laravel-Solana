@@ -2,6 +2,7 @@
 
 > [!CAUTION]
 > This package is a WIP and still needs work before it's ready for use.
+> The package will be ready for use when it hits version 1.0.0
 
 Interact with the Solana blockchain using the SolanaRPC in your Laravel App.
 
