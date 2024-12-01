@@ -27,6 +27,8 @@ abstract class BaseRpcRequest extends Request implements HasBody
         protected array $params = [],
     ) {}
 
+    abstract public function createDto(Collection $jsonObject): IResponseDTO;
+
     /**
      * @throws JsonException
      */
@@ -36,8 +38,6 @@ abstract class BaseRpcRequest extends Request implements HasBody
 
         return $this->createDto($jsonResponse);
     }
-
-    abstract public function createDto(Collection $jsonObject): IResponseDTO;
 
     /**
      * RPC Endpoints are shared across all requests.
