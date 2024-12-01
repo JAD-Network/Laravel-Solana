@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "php": "^8.4",
+    "php": "^8.3",
     "illuminate/console": "^v11.34.2",
     "illuminate/support": "^v11.34.2",
     "saloonphp/saloon": "^v3.10.0",
