@@ -18,6 +18,7 @@ abstract class BaseRpcRequest extends Request implements HasBody
 {
     use HasJsonBody;
 
+
     protected Method $method = Method::POST;
 
     protected string $connector = SolanaConnector::class;
