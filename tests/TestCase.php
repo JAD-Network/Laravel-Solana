@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JadNetwork\LaravelSolana\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -13,18 +15,11 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'JadNetwork\\LaravelSolana\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            static fn(string $modelName) => 'JadNetwork\\LaravelSolana\\Database\\Factories\\' . class_basename($modelName) . 'Factory',
         );
     }
 
-    protected function getPackageProviders($app)
-    {
-        return [
-            LaravelSolanaServiceProvider::class,
-        ];
-    }
-
-    public function getEnvironmentSetUp($app)
+    public function getEnvironmentSetUp($app): void
     {
         config()->set('database.default', 'testing');
 
@@ -32,5 +27,12 @@ class TestCase extends Orchestra
         $migration = include __DIR__.'/../database/migrations/create_laravel-solana_table.php.stub';
         $migration->up();
         */
+    }
+
+    protected function getPackageProviders($app)
+    {
+        return [
+            LaravelSolanaServiceProvider::class,
+        ];
     }
 }

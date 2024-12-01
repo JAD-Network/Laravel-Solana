@@ -10,6 +10,6 @@ class SolanaConnector extends Connector
 {
     public function resolveBaseUrl(): string
     {
-        return config('solana.rpc_api_endpoint');
+        return (string) config('solana.rpc_api_endpoint');
     }
 }

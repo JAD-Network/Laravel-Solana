@@ -1,11 +1,15 @@
 {
   "name": "jad-network/laravel-solana",
-  "description": "Solana Web3.js ported to PHP with Laravel",
+  "description": "Solana Web3.js ported to Laravel",
   "keywords": [
     "JAD Network",
     "laravel",
-    "laravel-solana"
+    "laravel-solana",
+    "Solana",
+    "blockchain",
+    "RPC"
   ],
+  "version": "0.0.1",
   "homepage": "https://github.com/jad-network/laravel-solana",
   "license": "MIT",
   "authors": [
@@ -16,7 +20,7 @@
     }
   ],
   "require": {
-    "php": "^8.4",
+    "php": "^8.3",
     "illuminate/console": "^v11.34.2",
     "illuminate/support": "^v11.34.2",
     "saloonphp/saloon": "^v3.10.0",
