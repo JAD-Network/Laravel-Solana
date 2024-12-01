@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace JadNetwork\LaravelSolana\Commands;
 
 use Illuminate\Console\Command;
