@@ -1,5 +1,11 @@
 # SolanaRPC Laravel Package
 
+> [!CAUTION]
+> This package is a WIP and still needs work before it's ready for use.
+> The package will be ready for use when it hits version 1.0.0
+
+Interact with the Solana blockchain using the SolanaRPC in your Laravel App.
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jad-network/laravel-solana.svg?style=flat-square)](https://packagist.org/packages/jad-network/laravel-solana)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jad-network/laravel-solana/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jad-network/laravel-solana/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jad-network/laravel-solana/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jad-network/laravel-solana/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
